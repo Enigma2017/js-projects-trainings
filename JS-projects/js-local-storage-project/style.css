@@ -1,0 +1,106 @@
+body{
+		box-sizing: border-box;
+		background: url("bamboo-bg.jpg") no-repeat center center / cover;
+		height: 100vh;
+		margin: 0;
+		padding: 0;
+	}
+
+	.container{
+		width: 1172px;
+	}
+
+	h1{
+		font-family: 'Dancing Script', cursive;
+		font-size: 62px;
+		padding: 40px 0 35px 0;
+		color: black;
+		font-weight: 700;
+	}
+
+	form{
+		width: auto;
+	}
+
+	textarea{
+		padding: 15px;
+		border: none;
+		outline: none;
+		-webkit-box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+		-moz-box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+		box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+	}
+
+	button{
+		margin-top: 10px;
+	}
+
+	h2{
+		font-family: 'Dancing Script', cursive;
+		font-size: 52px;
+		padding-bottom: 15px;
+		color: black;
+		font-weight: 700;
+	}
+
+	li{
+		-webkit-box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+		-moz-box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+		box-shadow: 1px 1px 5px 2px rgba(169,169,169,0.36);
+		background-color: white;
+		word-wrap: break-word;
+		list-style-type: none;
+		padding: 6px 10px;
+		margin-bottom: 12px;
+		-webkit-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	.remove-tweet, .remove-tweet:hover{
+		float: right;
+		cursor: pointer;
+		color: #a9a9a9;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+@media screen and (max-width: 991px){
+	.container{
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 720px;
+	}
+
+	body{
+		height: auto;
+	}
+
+	h1{
+		padding: 30px 0 0 0;
+	}
+
+	h2{
+		font-size: 42px;
+		padding-top: 40px;
+	}
+
+	.tweet-list{
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.container{
+		width: 90%;
+	}
+
+	h1{
+		font-size: 54px;
+	}
+}

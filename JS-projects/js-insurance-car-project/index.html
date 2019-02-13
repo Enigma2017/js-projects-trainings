@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Insurance-car-project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="contant d-flex flex-column justify-content-center">
+					<h1 class="text-uppercase text-center">Car Insurance Quote Online</h1>
+					<form action="#" id="request-quote" class="form">
+						<div class="form-group">
+							<label for="country">Country:</label>
+                            <select class="form-control" id="make">
+                                <option value="">- Select -</option>
+                                <option value="1">American</option>
+                                <option value="2">Asian</option>
+                                <option value="3">European</option>
+                            </select>
+						</div>
+						<div class="form-group">
+                            <label for="year">Year:</label>
+                            <select class="form-control" id="year"></select>
+                        </div>
+                        <div class="form-group">
+                        	<label for="level">Level:</label>
+                        	<div class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-block justify-content-around">
+	                        	<div class="form-check">
+		                        	<label class="form-check-label text-uppercase">
+		                                <input  class="form-check-input" type="radio" name="level" value="basic" checked>
+		                                    Basic
+		                           </label>
+	                       		</div>
+	                           <div class="form-check">
+	                                <label class="form-check-label text-uppercase">
+	                                    <input class="form-check-input" type="radio" name="level" value="complete">
+	                                        Complete
+	                                </label>
+	                            </div>
+	                        </div>
+                        </div>
+                        <div id="loading" class="loading text-center">
+                            <img src="img/spinner.gif">
+                        </div>
+                        <div id="result"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-raised btn-primary text-uppercase text-center">
+                            	Get Quote
+                        	</button>
+                        </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<!--<script type="text/javascript" src="js/classes.js"></script>
+	<script type="text/javascript" src="js/appClasses.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,119 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	background: url("../img/kotka.jpg") no-repeat center center;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+	padding: 0;
+}
+
+.form{
+	background: rgba(230, 184, 184, 0.6);
+	padding: 30px 30px 35px 30px;
+	margin-bottom: 55px;
+}
+
+.block{
+	width: 50%;
+}
+
+h1{
+	font-size: 45px;
+	text-shadow: 5px 4px rgb(210, 180, 140);
+	padding: 20px 0;
+}
+
+label{
+	font-size: 20px;
+	text-shadow: 3px 2px rgb(210, 180, 140);
+	font-weight: 700;
+	padding-bottom: 15px;
+}
+
+.select-input, .input{
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	font-size: 18px;
+	color: #8c8cb2;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-box-shadow:0px 0px 4px 3px #592424;
+	-moz-box-shadow:0px 0px 4px 3px #592424;
+	box-shadow:0px 0px 4px 3px #592424;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.input-button{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 18px;
+	color: #8c8cb2;
+	margin-top: 35px;
+	background-color: #e6b8b8;
+	-webkit-box-shadow:0px 0px 4px 3px #592424;
+	-moz-box-shadow:0px 0px 4px 3px #592424;
+	box-shadow:0px 0px 4px 3px #592424;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.input-button:hover{
+	background-color: #fff;
+}
+
+h2{
+	text-shadow: 3px 2px rgb(210, 180, 140);
+	margin: 0 0 25px 0;
+	font-size: 26px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.list{
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	padding-left: 0;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.container{
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 90%;
+	}
+
+	body{
+		background: none;
+		background-color: #fff;
+	}
+
+	.block{
+		width: 100%;
+	}
+
+	h2{
+		margin-top: 40px;
+	}
+}

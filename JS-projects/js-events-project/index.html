@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section>
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p class="text-center font-weight-bold text-uppercase">Search events</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="content" id="search-events">
+							<h1 class="text-center">Search for Events by Name or City</h1>
+							<div class="form-group">
+		                        <label class="font-weight-bold" for="event-name">search by name or city</label>
+		                        <input type="text" id="event-name" class="form-control" placeholder="Search By Name or City"> 
+		                    </div>
+                     
+		                   <div class="form-group">
+		                        <label class="font-weight-bold" for="category">category</label>
+		                        <select class="form-control" id="category"></select>
+		                    </div>
+
+		                    <div class="form-group">
+		                        <input type="submit" class="btn btn-secondary btn-lg btn-block font-weight-bold" id="submitBtn" value="Search">
+		                    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div id="result" class="d-flex justify-content-around"></div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="text-center font-weight-bold text-uppercase">Search Events in Your City &copy;</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/eventbrite.js"></script>
+	<script type="text/javascript" src="js/ui.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
